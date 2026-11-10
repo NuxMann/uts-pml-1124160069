@@ -56,6 +56,15 @@ class ProfilePage extends StatelessWidget {
                 child: Icon(Icons.person, size: 60, color: Colors.white),
               ),
               const SizedBox(height: 20),
+
+              Text(
+                'Fahry Achmad Wibowo',
+                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 8),
             ]
           )
         )
