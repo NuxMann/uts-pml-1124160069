@@ -180,6 +180,22 @@ class ProfilePage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 32),
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton.icon(
+                  onPressed: () {
+                    print("Tombol Edit Profil Ditekan");
+                  },
+                  icon: const Icon(Icons.edit),
+                  label: const Text('Edit Profil'),
+                  style: ElevatedButton.styleFrom(
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
