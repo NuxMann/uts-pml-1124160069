@@ -43,6 +43,11 @@ class ProfilePage extends StatelessWidget {
           )
         ],
       ),
+      body: SafeArea(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(24.0),
+        )
+      )
     );
   }
 }
