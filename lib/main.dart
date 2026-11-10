@@ -50,6 +50,12 @@ class ProfilePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               const SizedBox(height: 16),
+              const CircleAvatar(
+                radius: 60,
+                backgroundColor: Colors.grey,
+                child: Icon(Icons.person, size: 60, color: Colors.white),
+              ),
+              const SizedBox(height: 20),
             ]
           )
         )
