@@ -33,6 +33,15 @@ class ProfilePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Profil Mahasiswa'),
+        actions: [
+          IconButton(
+            onPressed: () {
+              print("Edit Belum Fungsi");
+            },
+            icon: const Icon(Icons.edit),
+            tooltip: 'Edit Profil',
+          )
+        ],
       ),
     );
   }
