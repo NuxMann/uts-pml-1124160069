@@ -65,6 +65,25 @@ class ProfilePage extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 8),
+
+              Text(
+                'NIM: 1124160069',
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: Colors.grey[400],
+                      fontWeight: FontWeight.w500,
+                    ),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 4),
+
+              Text(
+                'Teknik Informatika - TI SE 24 Malam',
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: Colors.lightBlueAccent,
+                    ),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 32),
             ]
           )
         )
