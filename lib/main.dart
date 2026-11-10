@@ -12,7 +12,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Profil : Fahry Achmad Wibowo',
       debugShowCheckedModeBanner: false,
-
+      darkTheme: ThemeData(
+        brightness: Brightness.dark,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.lightBlueAccent,
+          brightness: Brightness.dark,
+        ),
+        useMaterial3: true,
+      ),
     );
   }
 }
