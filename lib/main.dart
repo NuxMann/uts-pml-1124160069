@@ -25,6 +25,28 @@ class MyApp extends StatelessWidget {
   }
 }
 
+class InfoTile extends StatelessWidget {
+  final String title;
+  final String subtitle;
+  final IconData icon;
+
+  const InfoTile({
+    super.key,
+    required this.title,
+    required this.subtitle,
+    required this.icon,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(
+      leading: Icon(icon, color: Colors.lightBlueAccent),
+      title: Text(title),
+      subtitle: Text(subtitle),
+    );
+  }
+}
+
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
 
@@ -89,7 +111,9 @@ class ProfilePage extends StatelessWidget {
                 elevation: 4,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16),
-                ),)
+                ),
+                   
+                )
             ]
           )
         )
