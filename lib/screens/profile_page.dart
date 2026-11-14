@@ -7,7 +7,7 @@ class ProfilePage extends StatefulWidget {
   final Function(bool) onThemeChanged;
   final bool isDarkMode;
 
-  ProfilePage({
+  const ProfilePage({
     super.key,
     required this.profile,
     required this.onThemeChanged,
