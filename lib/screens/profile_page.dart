@@ -132,6 +132,28 @@ class _ProfilePageState extends State<ProfilePage> {
           ],
         ),
       ),
+      // 2. Komponen Scaffold Tambahan: FloatingActionButton
+      floatingActionButton: FloatingActionButton(
+        onPressed: _navigateToEdit,
+        tooltip: 'Edit Profil',
+        child: const Icon(Icons.edit),
+      ),
+      // 3. Komponen Scaffold Tambahan: BottomNavigationBar
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: _selectedIndex,
+        onTap: (index) {
+          setState(() {
+            _selectedIndex = index;
+          });
+          if (index == 1) {
+            Navigator.pushNamed(context, '/about');
+          }
+        },
+        items: const [
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profil'),
+          BottomNavigationBarItem(icon: Icon(Icons.info_outline), label: 'Tentang'),
+        ],
+      ),
       );
   }
 }
