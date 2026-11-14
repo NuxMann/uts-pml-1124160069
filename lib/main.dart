@@ -1,6 +1,19 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const ProfilApp());
 }
 
+class ProfilApp extends StatefulWidget {
+  const ProfilApp({super.key});
+
+  @override
+  State<ProfilApp> createState() => _ProfilAppState();
+}
+
+class _ProfilAppState extends State<ProfilApp> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
