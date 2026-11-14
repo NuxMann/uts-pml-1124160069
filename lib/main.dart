@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'screens/login_page.dart';
+import 'screens/profile_page.dart';
+import 'screens/edit_profile_page.dart';
+import 'screens/about_page.dart';
+import 'models/profile.dart';
 
 void main() {
   runApp(const ProfilApp());
