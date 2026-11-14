@@ -23,6 +23,15 @@ class _ProfilAppState extends State<ProfilApp> {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      title: 'Profil Mahasiswa',
+      debugShowCheckedModeBanner: false,
+      themeMode: _themeMode,
+      // Tema Terang Kustom
+      theme: ThemeData(
+        brightness: Brightness.light,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo, brightness: Brightness.light),
+        useMaterial3: true,
+      ),);
   }
 }
