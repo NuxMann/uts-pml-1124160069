@@ -23,7 +23,7 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePageState extends State<ProfilePage> {
   late Profile _currentProfile;
   int _selectedIndex = 0;
-  
+
   @override
   void initState() {
     super.initState();
@@ -47,5 +47,19 @@ class _ProfilePageState extends State<ProfilePage> {
         const SnackBar(content: Text("Profil berhasil diperbarui!")),
       );
     }
+  }
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Halaman Profil"),
+        actions: [
+          // Switch Dark/Light Mode langsung di AppBar
+          IconButton(
+            icon: Icon(widget.isDarkMode ? Icons.dark_mode : Icons.light_mode),
+            onPressed: () => widget.onThemeChanged(!widget.isDarkMode),
+          ),
+        ],
+      ),);
   }
 }
