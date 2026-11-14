@@ -28,7 +28,7 @@ Aplikasi mobile berbasis **Flutter** yang dikembangkan untuk memenuhi Ujian Teng
 
 ## 📸 Tangkapan Layar (Screenshots)
 
-| Halaman Login | Halaman Profil Utama | Halaman Edit Profil |
+| Halaman Login | Halaman Profil Utama | Halaman About Page Profil | | Halaman Edit Profil |
 | :---: | :---: | :---: |
 | ![Login](docs/Login.png) | ![Profil](docs/Profile.png) | ![About Page](docs/AboutPage.png) | | ![Edit](docs/Edit.png) |
 
