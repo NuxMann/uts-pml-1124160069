@@ -30,7 +30,7 @@ Aplikasi mobile berbasis **Flutter** yang dikembangkan untuk memenuhi Ujian Teng
 
 | Halaman Login | Halaman Profil Utama | Halaman About Page Profil | | Halaman Edit Profil |
 | :---: | :---: | :---: |
-| ![Login](docs/Login.png) | ![Profil](docs/Profile.png) | ![About Page](docs/AboutPage.png) | | ![Edit](docs/Edit.png) |
+| ![Login](soal2_profil_app/docs/Login.png) | ![Profil](soal2_profil_app/docs/Profile.png) | ![About Page](soal2_profil_app/docs/AboutPage.png) | | ![Edit](soal2_profil_app/docs/Edit.png) |
 
 ---
 
