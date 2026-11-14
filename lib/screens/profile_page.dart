@@ -60,6 +60,42 @@ class _ProfilePageState extends State<ProfilePage> {
             onPressed: () => widget.onThemeChanged(!widget.isDarkMode),
           ),
         ],
-      ),);
+      ),
+      // 1. Komponen Scaffold Tambahan: Drawer
+      drawer: Drawer(
+        child: ListView(
+          padding: EdgeInsets.zero,
+          children: [
+            UserAccountsDrawerHeader(
+              accountName: Text(_currentProfile.nama),
+              accountEmail: Text(_currentProfile.email),
+              currentAccountPicture: const CircleAvatar(
+                backgroundImage: AssetImage('assets/images/profile.png'),
+              ),
+              decoration: BoxDecoration(color: Theme.of(context).colorScheme.primary),
+            ),
+            ListTile(
+              leading: const Icon(Icons.person),
+              title: const Text("Profil Saya"),
+              onTap: () => Navigator.pop(context),
+            ),
+            ListTile(
+              leading: const Icon(Icons.info),
+              title: const Text("Tentang Saya"),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.pushNamed(context, '/about');
+              },
+            ),
+            const Divider(),
+            ListTile(
+              leading: const Icon(Icons.logout, color: Colors.red),
+              title: const Text("Logout", style: TextStyle(color: Colors.red)),
+              onTap: () => Navigator.pushReplacementNamed(context, '/'),
+            ),
+          ],
+        ),
+      ),
+      );
   }
 }
