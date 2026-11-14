@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:soal2_profil_app/models/profile.dart';
+import '../widgets/info_tile.dart';
+import 'edit_profile_page.dart';
 
 
 class ProfilePage extends StatefulWidget {
@@ -19,8 +21,31 @@ class ProfilePage extends StatefulWidget {
 }
 
 class _ProfilePageState extends State<ProfilePage> {
+  late Profile _currentProfile;
+  int _selectedIndex = 0;
+  
   @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
+  void initState() {
+    super.initState();
+    _currentProfile = widget.profile;
+  }
+  // Fungsi untuk membuka halaman edit via Navigator.push dan menerima data balik
+  void _navigateToEdit() async {
+    final updatedProfile = await Navigator.push<Profile>(
+      context,
+      MaterialPageRoute(
+        builder: (context) => EditProfilePage(profile: _currentProfile),
+      ),
+    );
+
+    if (updatedProfile != null) {
+      setState(() {
+        _currentProfile = updatedProfile;
+      });
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text("Profil berhasil diperbarui!")),
+      );
+    }
   }
 }
