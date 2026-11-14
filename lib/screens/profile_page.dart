@@ -96,6 +96,42 @@ class _ProfilePageState extends State<ProfilePage> {
           ],
         ),
       ),
+      // Isi Halaman Profil Utama
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          children: [
+            const SizedBox(height: 10),
+            // Foto diri dari assets dengan CircleAvatar
+            const CircleAvatar(
+              radius: 50,
+              backgroundImage: AssetImage('assets/images/profile.png'),
+            ),
+            const SizedBox(height: 16),
+            Text(_currentProfile.nama, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 4),
+            Text("${_currentProfile.nim} | ${_currentProfile.prodi}", style: const TextStyle(color: Colors.grey)),
+            Text(_currentProfile.kelas, style: const TextStyle(fontWeight: FontWeight.w500)),
+            const SizedBox(height: 12),
+            Card(
+              color: Theme.of(context).colorScheme.surfaceVariant.withOpacity(0.4),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Text(_currentProfile.bio, textAlign: TextAlign.center, style: const TextStyle(fontStyle: FontStyle.italic)),
+              ),
+            ),
+            const SizedBox(height: 20),
+            const Align(
+              alignment: Alignment.centerLeft,
+              child: Text("Informasi Kontak", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+            ),
+            const SizedBox(height: 8),
+            InfoTile(icon: Icons.email, title: "Email", subtitle: _currentProfile.email),
+            InfoTile(icon: Icons.phone, title: "Nomor HP", subtitle: _currentProfile.hp),
+            InfoTile(icon: Icons.code, title: "Akun GitHub", subtitle: _currentProfile.github),
+          ],
+        ),
+      ),
       );
   }
 }
