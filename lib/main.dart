@@ -39,6 +39,18 @@ class _ProfilAppState extends State<ProfilApp> {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo, brightness: Brightness.dark),
         useMaterial3: true,
       ),
+      routes: {
+        '/': (context) => const LoginPage(),
+        '/profile': (context) {
+          final profile = ModalRoute.of(context)!.settings.arguments as Profile;
+          return ProfilePage(
+            profile: profile,
+            onThemeChanged: toggleTheme,
+            isDarkMode: _themeMode == ThemeMode.dark,
+          );
+        },
+        '/about': (context) => const AboutPage(),
+      },
       );
   }
 }
