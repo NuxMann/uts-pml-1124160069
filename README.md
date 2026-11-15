@@ -28,7 +28,7 @@ Aplikasi mobile berbasis **Flutter** yang dikembangkan untuk memenuhi Ujian Teng
 
 ## 📸 Tangkapan Layar (Screenshots)
 
- Halaman Login ![Login](soal2_profil_app/docs/Login.png)  Halaman Profil Utama  ![Profil](soal2_profil_app/docs/Profile.png)  Halaman About Page Profil ![About Page](soal2_profil_app/docs/AboutPage.png)  Halaman Edit Profil ![Edit](soal2_profil_app/docs/Edit.png) Dark Mode ![Edit](soal2_profil_app/docs/dark.png)
+ Halaman Login ![Login](soal2_profil_app/docs/Login.png)  Halaman Profil Utama  ![Profil](soal2_profil_app/docs/Profile.png)  Halaman About Page Profil ![About Page](soal2_profil_app/docs/AboutPage.png)  Halaman Edit Profil ![Edit](soal2_profil_app/docs/Edit.png) Dark Mode ![Edit](soal2_profil_app/docs/dark.jpg)
 
 ---
 
