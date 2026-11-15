@@ -22,13 +22,13 @@ Aplikasi mobile berbasis **Flutter** yang dikembangkan untuk memenuhi Ujian Teng
 
 ## 🎥 Video Demonstrasi
 [![Demo YouTube](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/LJ21L0rmHco)  
-*(Klik tombol di atas untuk menonton video demo aplikasi berdurasi 5–10 menit)*
+*(Klik tombol di atas untuk menonton video demo aplikasi)*
 
 ---
 
 ## 📸 Tangkapan Layar (Screenshots)
 
-| Halaman Login ![Login](soal2_profil_app/docs/Login.png) | Halaman Profil Utama  ![Profil](soal2_profil_app/docs/Profile.png) | Halaman About Page Profil ![About Page](soal2_profil_app/docs/AboutPage.png) | | Halaman Edit Profil ![Edit](soal2_profil_app/docs/Edit.png) |
+ Halaman Login ![Login](soal2_profil_app/docs/Login.png)  Halaman Profil Utama  ![Profil](soal2_profil_app/docs/Profile.png)  Halaman About Page Profil ![About Page](soal2_profil_app/docs/AboutPage.png)  Halaman Edit Profil ![Edit](soal2_profil_app/docs/Edit.png) Dark Mode ![Edit](soal2_profil_app/docs/dark.png)
 
 ---
 
