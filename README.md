@@ -21,7 +21,7 @@ Aplikasi mobile berbasis **Flutter** yang dikembangkan untuk memenuhi Ujian Teng
 ---
 
 ## 🎥 Video Demonstrasi
-[![Demo YouTube](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.link-video-anda)  
+[![Demo YouTube](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/LJ21L0rmHco)  
 *(Klik tombol di atas untuk menonton video demo aplikasi berdurasi 5–10 menit)*
 
 ---
