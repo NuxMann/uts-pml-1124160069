@@ -105,7 +105,7 @@ class _ProfilePageState extends State<ProfilePage> {
             // Foto diri dari assets dengan CircleAvatar
             const CircleAvatar(
               radius: 50,
-              backgroundImage: AssetImage('assets/images/profile.png'),
+              backgroundImage: AssetImage('assets/images/Profile.png'),
             ),
             const SizedBox(height: 16),
             Text(_currentProfile.nama, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
