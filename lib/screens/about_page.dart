@@ -5,23 +5,37 @@ class AboutPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // 1. Deklarasikan variabel list di bagian atas method build (sebelum return)
     final List<String> keahlianList = [
       "Flutter & Dart Mobile Development",
       "Web Development (PHP, CodeIgniter, Tailwind)",
       "Database Administration (MySQL & PostgreSQL)",
       "Chemical Inventory & Rubber Compound System"
     ];
-    final List> pendidikanList = [
-      {"jenjang": "Strata 1 (S1) - Teknik Informatika", "institusi": "Institut Teknologi & Bisnis Bina Sarana Global", "tahun": "2024 - Sekarang"},
-      {"jenjang": "Sekolah Menengah Atas / Kejuruan", "institusi": "SMK Negeri / Swasta Tangerang", "tahun": "2021 - 2024"}
+
+    final List<Map<String, String>> pendidikanList = [
+      {
+        "jenjang": "Strata 1 (S1) - Teknik Informatika",
+        "institusi": "Institut Teknologi & Bisnis Bina Sarana Global",
+        "tahun": "2024 - Sekarang"
+      },
+      {
+        "jenjang": "Sekolah Menengah Atas / Kejuruan",
+        "institusi": "SMK Negeri / Swasta Tangerang",
+        "tahun": "2021 - 2024"
+      }
     ];
 
+    // 2. Gunakan variabel di dalam widget tree
     return Scaffold(
       appBar: AppBar(title: const Text("Tentang Saya")),
       body: ListView(
         padding: const EdgeInsets.all(16.0),
         children: [
-          const Text("Keahlian & Hobi", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+          const Text(
+            "Keahlian & Hobi",
+            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+          ),
           const SizedBox(height: 8),
           ...keahlianList.map((keahlian) => Card(
                 child: ListTile(
@@ -30,7 +44,10 @@ class AboutPage extends StatelessWidget {
                 ),
               )),
           const SizedBox(height: 24),
-          const Text("Riwayat Pendidikan", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+          const Text(
+            "Riwayat Pendidikan",
+            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+          ),
           const SizedBox(height: 8),
           ...pendidikanList.map((edu) => Card(
                 child: ListTile(
