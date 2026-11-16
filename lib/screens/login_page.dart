@@ -11,8 +11,8 @@ class LoginPage extends StatelessWidget {
       nim: "1124160069",
       prodi: "Teknik Informatika",
       kelas: "TI SE 24 Malam",
-      bio: "Mahasiswa Software Engineering & Enthusiast Mobile Developer.",
-      email: "fahry@amd06@gmail.com",
+      bio: "Hanya Manusia Biasa Yang Suka Coding.",
+      email: "fahryamd06@gmail.com",
       hp: "085156714674",
       github: "github.com/NuxMann",
     );
