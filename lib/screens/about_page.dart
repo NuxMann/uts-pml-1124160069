@@ -11,5 +11,9 @@ class AboutPage extends StatelessWidget {
       "Database Administration (MySQL & PostgreSQL)",
       "Chemical Inventory & Rubber Compound System"
     ];
+    final List> pendidikanList = [
+      {"jenjang": "Strata 1 (S1) - Teknik Informatika", "institusi": "Institut Teknologi & Bisnis Bina Sarana Global", "tahun": "2024 - Sekarang"},
+      {"jenjang": "Sekolah Menengah Atas / Kejuruan", "institusi": "SMK Negeri / Swasta Tangerang", "tahun": "2021 - 2024"}
+    ];
   }
 }
