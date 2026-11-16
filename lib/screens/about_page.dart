@@ -7,10 +7,21 @@ class AboutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     // 1. Deklarasikan variabel list di bagian atas method build (sebelum return)
     final List<String> keahlianList = [
-      "Flutter & Dart Mobile Development",
-      "Web Development (PHP, CodeIgniter, Tailwind)",
-      "Database Administration (MySQL & PostgreSQL)",
-      "Chemical Inventory & Rubber Compound System"
+      "Mobile Development",
+      "Web Development",
+      "Desain Grafis",
+      "Inventory Control",
+    ];
+
+    final List<Map<String, dynamic>> hobiList = [
+      {"hobi": "Bermain Game", "icon": Icons.sports_esports},
+      {"hobi": "Sepak Bola", "icon": Icons.sports_soccer},
+      {"hobi": "Fotografi", "icon": Icons.camera_alt},
+      {"hobi": "Traveling", "icon": Icons.travel_explore},
+      {"hobi": "Menonton Film & Serial", "icon": Icons.movie},
+      {"hobi": "Menjelajahi Alam / Hiking", "icon": Icons.terrain},
+      {"hobi": "Membaca Buku", "icon": Icons.menu_book},
+      {"hobi": "Coding", "icon": Icons.code},
     ];
 
     final List<Map<String, String>> pendidikanList = [
@@ -21,8 +32,8 @@ class AboutPage extends StatelessWidget {
       },
       {
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
-        "institusi": "SMK Negeri / Swasta Tangerang",
-        "tahun": "2021 - 2024"
+        "institusi": "SMKN 5 Kabupaten Tangerang",
+        "tahun": "2019 - 2022"
       }
     ];
 
@@ -33,7 +44,7 @@ class AboutPage extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         children: [
           const Text(
-            "Keahlian & Hobi",
+            "Keahlian",
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 8),
@@ -44,6 +55,22 @@ class AboutPage extends StatelessWidget {
                 ),
               )),
           const SizedBox(height: 24),
+
+          const Text(
+            "Hobi",
+            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+          ),
+          const SizedBox(height: 8),
+          
+          ...hobiList.map((item) => Card(
+                child: ListTile(
+                  leading: Icon(item["icon"], color: Colors.blue), // Mengambil ikon unik per item
+                  title: Text(item["hobi"]!),
+                ),
+              )),
+          
+          const SizedBox(height: 24),
+
           const Text(
             "Riwayat Pendidikan",
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
