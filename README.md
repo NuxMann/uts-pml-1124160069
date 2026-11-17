@@ -56,3 +56,26 @@ Pastikan Anda sudah menginstal **Flutter SDK** di komputer Anda. Jalankan perint
    ```bash
    git clone [https://github.com/NuxMann/uts-pml-1124160069.git](https://github.com/NuxMann/uts-pml-1124160069.git)
    cd uts-pml-1124160069/soal2-profil-app
+
+2. **Jalankan Flutter Clean untuk Clean Flutter:**
+   ```bash
+
+   flutter clean
+
+3. **Jalankan Flutter Pub Get:**
+   ```bash
+
+   flutter pub get
+
+4. **Running: dan pilih crhrome**
+   ```bash
+
+   flutter running
+
+   
+## 📱 Download APK
+
+Klik tombol di bawah untuk mengunduh aplikasi Android.
+
+[⬇️ Download APK](https://github.com/NuxMann/uts-pml-1124160069/releases/latest)
+
