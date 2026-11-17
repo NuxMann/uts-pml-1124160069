@@ -1,28 +1,39 @@
  
-<div align="center">
+ <div align="center">
 
 # 📱 APLIKASI PROFIL MAHASISWA
 
 ### Flutter Mobile Application — UTS Soal 2
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2500&pause=900&color=00BFFF&center=true&vCenter=true&width=850&lines=Welcome+to+My+Flutter+Project!;Student+Profile+Mobile+Application;Built+with+Flutter+%26+Dart;Developed+by+Fahry+Achmad+Wibowo" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2500&pause=1000&color=00BFFF&center=true&vCenter=true&width=650&height=45&lines=Welcome+to+My+Flutter+Project!;Student+Profile+Application;Built+with+Flutter+%26+Dart;Developed+by+Fahry+Achmad+Wibowo" alt="Typing Animation" />
 
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
+<p>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart"/>
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android"/>
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=flat-square" alt="Status"/>
+</p>
 
 <br/>
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding Animation" />
+<a href="https://github.com/NuxMann/uts-pml-1124160069/releases/latest">
+  <img src="https://img.shields.io/badge/⬇_DOWNLOAD_APK-Download_Now-2EA44F?style=for-the-badge&logo=android&logoColor=white" alt="Download APK"/>
+</a>
+<a href="https://youtu.be/LJ21L0rmHco">
+  <img src="https://img.shields.io/badge/▶_WATCH_DEMO-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo"/>
+</a>
+
+<br/><br/>
 
 **Aplikasi Profil Mahasiswa berbasis Flutter**
 
-[📥 Download APK](https://github.com/NuxMann/uts-pml-1124160069/releases/latest) •
-[🎥 Video Demo](https://youtu.be/LJ21L0rmHco) •
-[💻 GitHub Repository](https://github.com/NuxMann/uts-pml-1124160069)
+*Implementasi pengembangan aplikasi mobile menggunakan Flutter dan Dart.*
 
 </div>
+
+---
+
+
 
 ---
 
