@@ -1,6 +1,10 @@
 # 📱 Aplikasi Profil Mahasiswa - Flutter (Soal 2)
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=02569B&center=true&vCenter=true&width=800&lines=Welcome+to+My+Flutter+Project!;Aplikasi+Profil+Mahasiswa;UTS+Pemrograman+Mobile;Developed+by+Fahry+Achmad+Wibowo" alt="Typing SVG" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
   <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
